@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/Timisoara"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "forecast": [
+        {"day": "1", "temperature": "26.8", "wind": "3.8"},
+        {"day": "2", "temperature": "25.0", "wind": "2.9"},
+        {"day": "3", "temperature": "31.5", "wind": "6.5"},
+        {"day": "4", "temperature": "30.2", "wind": "4.2"},
+        {"day": "5", "temperature": "27.4", "wind": "3.7"},
+        {"day": "6", "temperature": "22.7", "wind": "3.1"},
+        {"day": "7", "temperature": "24.5", "wind": "1.8"}
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

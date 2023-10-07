@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/Craiova"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "forecast": [
+        {"day": "1", "temperature": "25.5", "wind": "4.2"},
+        {"day": "2", "temperature": "24.8", "wind": "3.9"},
+        {"day": "3", "temperature": "30.2", "wind": "5.7"},
+        {"day": "4", "temperature": "29.7", "wind": "4.5"},
+        {"day": "5", "temperature": "26.3", "wind": "4.0"},
+        {"day": "6", "temperature": "21.6", "wind": "3.3"},
+        {"day": "7", "temperature": "23.8", "wind": "2.1"}
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

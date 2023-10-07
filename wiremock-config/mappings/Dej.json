@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/Dej"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "forecast": [
+        {"day": "1", "temperature": "22.3", "wind": "3.0"},
+        {"day": "2", "temperature": "21.5", "wind": "2.6"},
+        {"day": "3", "temperature": "27.8", "wind": "4.1"},
+        {"day": "4", "temperature": "27.2", "wind": "3.5"},
+        {"day": "5", "temperature": "23.6", "wind": "2.8"},
+        {"day": "6", "temperature": "18.9", "wind": "2.7"},
+        {"day": "7", "temperature": "21.2", "wind": "1.9"}
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

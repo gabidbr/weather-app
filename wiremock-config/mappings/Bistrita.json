@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/Bistrita"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "forecast": [
+        {"day": "1", "temperature": "21.8", "wind": "2.7"},
+        {"day": "2", "temperature": "20.3", "wind": "2.2"},
+        {"day": "3", "temperature": "26.7", "wind": "3.9"},
+        {"day": "4", "temperature": "26.1", "wind": "3.3"},
+        {"day": "5", "temperature": "22.5", "wind": "2.6"},
+        {"day": "6", "temperature": "17.6", "wind": "2.5"},
+        {"day": "7", "temperature": "19.0", "wind": "1.8"}
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
